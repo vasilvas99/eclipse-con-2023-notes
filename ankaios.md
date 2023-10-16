@@ -34,3 +34,5 @@ Kai proposes to move CUA on-top of ankaios, i.e. swap container management with
 ankaios and reuse CUA/reimplement as a stand-alone component on top of it.
 
 => you get podman/podspec yamls for free
+
+=> Ties you to systemd (same with bluechi), you can't swap for runit-init/sysvinit later which allow your to optimize aggressively.
